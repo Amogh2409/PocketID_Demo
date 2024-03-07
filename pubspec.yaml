@@ -1,0 +1,65 @@
+name: pocketid_demo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.6+1
+  provider: ^6.0.5
+  flutter_easyloading: ^3.0.5
+  carousel_slider: ^4.2.1
+  cached_network_image: ^3.3.1
+  get: ^4.6.5
+  google_fonts: ^6.1.0
+  proste_bezier_curve: ^2.0.2
+  lottie: ^2.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  
+flutter:
+
+  uses-material-design: true
+  assets:
+        - assets/aadhaar.png
+        - assets/pan.png
+        - assets/others.png
+        - assets/doc.png
+        - assets/mainscreen.png
+        - assets/navback.png
+        - assets/birthcertificate.png
+        - assets/income-certificate.jpg
+        - assets/vregistration.jpg
+        - assets/img1.jpg
+        
+        
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/lato.ttf    
+    - family: Lato-Reg
+      fonts:
+        - asset: fonts/Lato-Regular.ttf    
+    - family: Lato-Thin
+      fonts:
+        - asset: fonts/Lato-Thin.ttf    
+    - family: Poppins
+      fonts:
+        - asset: fonts/p1.ttf    
+    - family: Poppins-Reg
+      fonts:
+        - asset: fonts/p3.ttf    
+    - family: Poppins-Thin
+      fonts:
+        - asset: fonts/p5.ttf
